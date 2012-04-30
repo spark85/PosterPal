@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <style name="font_header" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="font_black_sml" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="font_black_med" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="font_blue_sml" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">8sp</item>
+    </style>
+
+    <style name="font_blue_lrg" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">16dip</item>
+    </style>
+
+    <style name="font_grey_med" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/darker_grey</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="font_white_lrg_bold" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22sp</item>
+		<item name="android:textStyle">bold</item>        
+    </style>
+    
+    <style name="font_white_lrg" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22sp</item>        
+    </style>
+    
+     <style name="font_white_med_bold" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+		<item name="android:textStyle">bold</item>        
+    </style>
+    
+       <style name="font_white_med" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>        
+    </style>
+    
+     <style name="font_black_med_bold" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15sp</item>
+		<item name="android:textStyle">bold</item>        
+    </style>
+    
+     
+     <style name="font_input" parent="android:Widget.Holo.Light.EditText">
+          <item name="android:textColor">@color/black</item>
+          <item name="android:textSize">14sp</item>
+          
+     </style> 
+     
+      
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="light_grey">#dadada</color>
+    <color name="dark_grey">#aaaaaa</color>
+    <color name="darker_grey">#666666</color>
+    <color name="off_white">#dadada</color>
+    <color name="transparent">#00000000</color>
+    <color name="translucent">#80000000</color>
+    <color name="keyline">#696969</color>
+    <color name="blue">#40588b</color>
+    <color name="red">#ff0000</color>
+    
+    
+    <!-- TAB NAVIGATION -->
+    <color name="tab_default_blue">#334954</color>
+    <color name="tab_overlay_light_blue">#8f989c</color>
+    <color name="tab_indicator_highlight">#212e35</color>  
+     
+  </resources>

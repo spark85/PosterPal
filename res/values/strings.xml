@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PosterPalActivity!</string>
+    <string name="app_name">PosterPal</string>
+    <string name="txt_app_name">PosterPal</string>
+    <string name="txt_sign_up">Sign Up</string>
+
+</resources>

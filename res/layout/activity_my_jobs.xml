@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollview_my_jobs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical">
+            
+            <com.google.android.maps.MapView
+            android:id="@+id/mapview"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:apiKey="0WrCWXHzXlpgt4vMVsUzAGconIB7Q9w_gjX9-iQ"
+            android:clickable="false" />
+
+            <ListView
+                android:id="@+id/listview_jobs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+            </ListView>
+        
+        </LinearLayout>
+    </ScrollView>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_deals_main_container"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:background="@drawable/img_deals_panel_bg"
+    android:orientation="horizontal"
+    android:weightSum="1.0">
+
+    <LinearLayout
+        android:id="@+id/layout_deals_content"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.70"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dip"
+        android:weightSum="1.0" android:paddingLeft="4dp">
+
+    
+        <LinearLayout
+            android:id="@+id/layout_deals_content_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1.0" >
+
+            <TextView
+                android:id="@+id/row_description"             
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="Naughty By Nature is Coming to Toronto!  "
+                android:textSize="14sp"
+                android:textColor="@color/darker_grey" android:gravity="top" android:paddingBottom="3dip" android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="1dip"
+        android:layout_height="match_parent"
+        android:background="@color/darker_grey" />
+
+    <LinearLayout
+        android:id="@+id/layout_chkbox"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1.0" >
+
+        <CheckBox
+            android:id="@+id/chkbox_view_job"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+       
+        <CheckBox
+            android:id="@+id/chkbox_view_only_job"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        
+      </LinearLayout>
+
+</LinearLayout>
+
+    
